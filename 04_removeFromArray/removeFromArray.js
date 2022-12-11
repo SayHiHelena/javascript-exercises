@@ -20,6 +20,7 @@ const removeFromArray = function() {
     for(let i = 0; i < targets.length; i++) {
         // remove the target element and update the array
         ary = ary.filter(element => element !== targets[i])
+        // val => !args.includes(val)
     }
 
     return ary;
